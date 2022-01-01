@@ -23,13 +23,17 @@ html body {
     padding-bottom: 50px;
 }
 
+.nav a {
+    text-decoration: none;
+    margin-left: 1.5em;      
+}
+
 .main-nav li {
     display: inline;
-    margin-left: 1.5em;
-    font-size: 1.5em;
+    font-size: 1.3em;
     color: rgb(255, 251, 251);
     font-weight: bold;
-
+ 
 }
 .main-nav ul {
     margin: 0;
@@ -42,6 +46,8 @@ html body {
 .name {
     font-family: 'Comfortaa', cursive;
     text-align: center;
+    color: rgb(255, 251, 251);
+    margin-bottom: 1em;
 
 }
 .name-large {
@@ -64,24 +70,55 @@ html body {
     margin: 1em;
 }
 .container-section {
-    text-align: justify;
+    text-align: center;
     padding: 10px;
     margin-left: 1em;
     margin-right: 1.5em; 
 }
 .container-section1 {
     font-size: 1.5em;
-    text-align: justify;
+    text-align: start;
+}
+
+.nav a:hover {
+    background-color: rgba(252, 220, 38, 0.74);
+   }
+.logo li {
+    display:inline;
+    margin: 1em;
+}
+
+.logo img {
+    height: 15px;
+    margin: 0;
+}
+.logo {
+    margin-bottom: 0;
+    padding-left: 2em;
+    padding-bottom: 0;
+}   
+.logo a:hover {
+    background-color: rgba(252, 220, 38, 0.74);
+}
+.name1 {
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    color: rgb(15, 9, 9);
+    margin-bottom: 1em;
 }
 .footer {
-    border-top:1px solid rgb(255, 236, 127);
     background-image: url(img/вода.jpg);
+    background-size: cover;
     background-blend-mode: multiply;
     background-color: rgba(0, 0, 0, 0.377);
-    background-size: cover;
-    padding-bottom: 50px;
+    margin-bottom: 0;
 }
-.footer li {
-    display: block;
-
+.nav a:hover {
+    background-color: rgba(252, 220, 38, 0.74);
+}
+.container-section img {
+    height: 200px;
+    float: right;
+    border-radius: 50%;
+    margin: 3px;
 }
